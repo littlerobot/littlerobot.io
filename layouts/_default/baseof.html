@@ -23,8 +23,10 @@
     {{ partial "navigation" . }}
 
     <div class="main-container">
-    {{ block "body" . }}
-    {{ end }}
+        {{ if not .IsHome }}
+            {{ partial "header" . }}
+        {{ end }}
+        {{ block "body" . }}{{ end }}
     </div>
 
     {{ partial "footer" . }}
