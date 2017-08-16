@@ -1,0 +1,27 @@
+{{ define "body" }}
+<section class="uk-section">
+    <div class="uk-container uk-container-xsmall">
+        <div class="tw-heading tw-element uk-text-center">
+            <h3>Get in Touch</h3>
+            <p>I would love to hear from you. Please fill in your details below and I'll get back to you as soon as I can.</p>
+        </div>
+        <div class="tw-contact-form tw-element">
+            <form action="https://formspree.io/hello@littlerobot.io" method="post" class=" uk-grid-small uk-child-width-1-1" data-uk-grid>
+                <div>
+                    <input id="name" name="name" placeholder="Name *" type="text" value="" size="30" aria-required="true">
+                </div>
+                <div>
+                    <input id="email" name="_replyto" placeholder="Email *" type="text" value="" size="30" aria-required="true">
+                </div>
+                <div>
+                    <textarea name="comment" placeholder="Your message" id="comment" class="required" rows="7"></textarea>
+                </div>
+                <div class="uk-text-center">
+                    <input name="submit" type="submit" id="submit" class="uk-button uk-button-default uk-button-radius uk-button-dark" value="Send">
+                </div>
+                <input type="hidden" name="_next" value="{{ .Site.BaseURL }}thanks" />
+            </form>
+        </div>
+    </div>
+</section>
+{{ end }}
