@@ -1,0 +1,10 @@
+{{ $id := trim .Title "." | urlize }}
+
+<div id="{{ $id }}" class="uk-flex uk-flex-middle">
+    <div class="tw-element promo-text-container full tw-box big-typography">
+        {{ with .Params.subtitle }}<h6 class="tw-sub-title">{{ . }}</h6>{{ end }}
+        <h1 class="tw-big-title">{{ .Title }}</h1>
+        <p class="uk-text-justify">{{ .Summary }}</p>
+        <!-- <a href="{{ .RelPermalink }}" class="uk-button uk-button-dark uk-button-default uk-button-small uk-button-radius tw-hover"><span class="tw-hover-inner"><span>Read more</span><i class="ion-arrow-right-c"></i></span></a> -->
+    </div>
+</div>
