@@ -1,3 +1,3 @@
 /stuart/ /about-me/ 301
 /blog/categories/:category/ /categories/:category/ 301
-/blog/:year/:month/:day/:slug/ /blog/:slug/ 301
+/blog/:year/:month/:slug/ /blog/:slug/ 301
