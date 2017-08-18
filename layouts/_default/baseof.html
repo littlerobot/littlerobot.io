@@ -6,7 +6,11 @@
         <!--<meta name="description" content="Site Description Here">-->
         <!--<link rel="shortcut icon" href="assets/images/favicon.png">-->
 
+        {{ if .IsHome }}
+            <title>{{ .Site.Title }}</title>
+        {{ else }}
         <title>{{ block "title" . }}{{ .Title }}{{ end }} &middot; {{ .Site.Title }}</title>
+        {{ end }}
 
         <link href="/css/uikit.min.css" rel="stylesheet" type="text/css" media="all" />
         <link href="/css/ionicons.min.css" rel="stylesheet" type="text/css" media="all" />
