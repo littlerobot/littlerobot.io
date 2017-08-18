@@ -1,3 +1,4 @@
 /stuart/ /about-me/ 301
 /blog/categories/:category/ /categories/:category/ 301
 /blog/:year/:month/:slug/ /blog/:slug/ 301
+/blog/2016/06/have-you-outgrown-spreadsheets-part-4-a-vast-sea-of-columns/ /blog/have-you-outgrown-spreadsheets-part-4-a-vast-sea-of-columns-as-far-as-the-eye-can-see/ 301
