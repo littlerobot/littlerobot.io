@@ -6,9 +6,7 @@
         <!--<meta name="description" content="Site Description Here">-->
         <!--<link rel="shortcut icon" href="assets/images/favicon.png">-->
 
-        <title>{{ block "title" . }}
-            {{- .Site.Title -}}
-        {{ end }}</title>
+        <title>{{ block "title" . }}{{ .Title }}{{ end }} &middot; {{ .Site.Title }}</title>
 
         <link href="/css/uikit.min.css" rel="stylesheet" type="text/css" media="all" />
         <link href="/css/ionicons.min.css" rel="stylesheet" type="text/css" media="all" />
@@ -32,8 +30,32 @@
 
     <div class="main-container">
         {{ if not .IsHome }}
-            {{ partial "header" . }}
-        {{ end }}
+            {{ $directory := "static/images/header/" }}
+            {{ $filename := add .Type ".jpg" }}
+
+            {{ if (where (readDir $directory) "Name" $filename) }}
+                {{ $.Scratch.Add "filename" $filename }}
+            {{ else }}
+                {{ $.Scratch.Add "filename" "default.jpg" }}
+            {{ end }}
+
+            {{ $path := add "/images/header/" ($.Scratch.Get "filename") }}
+            <section class="uk-section uk-text-center uk-flex uk-flex-middle uk-flex-center uk-light uk-background-cover uk-background-top-center"
+                data-overlay="0.4"
+                style="background-color: #151515; background-image: url({{ $path }}); height: 500px;"
+                >
+                <div class="tw-page-title-container tw-element">
+                    <h1 class="tw-page-title uk-text-uppercase">{{ block "header-title" . }}{{ .Title }}{{ end }}</h1>
+                </div>
+                <div class="tw-breadcrumb-container uk-position-absolute uk-position-bottom-center tw-element">
+                    <a href="/" class="tw-breadrumb-child home">Home</a>
+                    {{ if and (eq .Type "blog") (eq .Kind "page") }}
+                        <a href="/blog/" class="tw-breadrumb-child home">Blog</a>
+                    {{ end }}
+                    <a class="tw-breadrumb-child">{{ block "breadcrumb-title" . }}{{ .Title }}{{ end }}</a>
+                </div>
+            </section>
+            {{ end }}
         {{ block "body" . }}{{ end }}
     </div>
 
