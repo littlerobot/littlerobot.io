@@ -1,0 +1,7 @@
+baseURL: https://littlerobot.io/
+languageCode: en-gb
+title: Software development consultancy in Cambridgeshire · little robot
+permalinks:
+  blog: /blog/:title/
+taxonomies:
+  category: categories
