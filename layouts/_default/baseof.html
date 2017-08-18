@@ -33,7 +33,8 @@
     {{ partial "navigation" . }}
 
     <div class="main-container">
-        {{ if not .IsHome }}
+        <!-- Don't display header for home or 404 pages -->
+        {{ if and (not .IsHome) (ne .Kind "404") }}
             {{ $directory := "static/images/header/" }}
             {{ $filename := add .Type ".jpg" }}
 
