@@ -1,0 +1,33 @@
+<div class="sidebar-area">
+    <div class="sidebar-inner" data-uk-sticky="bottom: true;offset: 40">
+        <div class="widget-item">
+            <aside class="widget widget_categories">
+                <h3 class="widget-title"><span>Categories</span></h3>
+                <ul>
+                    {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+                        <li><a href="/categories/{{ $name | urlize }}/">{{ $name }}</a> ({{ $taxonomy | len }})</li>
+                    {{ end }}
+                </ul>
+            </aside>
+        </div>
+
+        <div class="widget-item">
+            <aside class="widget tw-post-widget">
+                <h3 class="widget-title"><span>Latest Posts</span></h3>
+                <ul>
+                    {{ range first 3 (where (where $.Site.Pages "Type" "blog") "Kind" "page") }}
+                    <li>
+                        <div class="recent-thumb">
+                            <a href="{{ .RelPermalink }}"><img src="/images/blog/recent/{{ .Params.image.name }}" alt="{{ .Params.image.alt }}"></a>
+                        </div>
+                        <div class="recent-content">
+                            <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+                            <span class="entry-date">{{ .Date.Format "02/01/2006"}}</span>
+                        </div>
+                    </li>
+                    {{ end }}
+                </ul>
+            </aside>
+        </div>
+    </div>
+</div>
