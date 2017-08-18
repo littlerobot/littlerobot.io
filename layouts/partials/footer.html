@@ -42,24 +42,11 @@
                     <div class="uk-padding-left">
                         <h3 class="widget-title"><span>Links</span></h3>
                         <ul>
+                            {{ range .Site.Menus.main }}
                             <li>
-                                <a href="/for-businesses/">For businesses</a>
+                                <a href="{{ .URL }}">{{ .Name }}</a>
                             </li>
-                            <li>
-                                <a href="/for-teams/">For teams</a>
-                            </li>
-                            <li>
-                                <a href="/projects/">Projects</a>
-                            </li>
-                            <li>
-                                <a href="/blog/">Blog</a>
-                            </li>
-                            <li>
-                                <a href="/about-me/">About</a>
-                            </li>
-                            <li>
-                                <a href="/contact/">Contact</a>
-                            </li>
+                            {{ end }}
                         </ul>
                     </div>
                 </div>

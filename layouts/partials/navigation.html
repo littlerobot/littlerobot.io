@@ -5,27 +5,12 @@
                 <img src="/images/logo/header-logo.png" alt="little robot" srcset="/images/logo/header-logo@2x.png 2x" />
             </a>
             <ul class="tw-main-menu uk-visible@m">
-                <li class="menu-item">
-                    <a href="/">Home</a>
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.main }}
+                <li class="menu-item {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}uk-active{{ end }}">
+                    <a href="{{ .URL }}">{{ .Name }}</a>
                 </li>
-                <li class="menu-item">
-                    <a href="/for-businesses/">For businesses</a>
-                </li>
-                <li class="menu-item">
-                    <a href="/for-teams/">For teams</a>
-                </li>
-                <li class="menu-item">
-                    <a href="/projects/">Projects</a>
-                </li>
-                <li class="menu-item">
-                    <a href="/blog/">Blog</a>
-                </li>
-                <li class="menu-item">
-                    <a href="/about-me/">About Me</a>
-                </li>
-                <li class="menu-item">
-                    <a href="/contact/">Contact</a>
-                </li>
+                {{ end }}
             </ul>
         </div>
     </nav>
