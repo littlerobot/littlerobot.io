@@ -1,5 +1,9 @@
-<div class="header-container tw-header tw-header-minimal">
-    <nav class="uk-navbar-container uk-flex-center" data-uk-navbar>
+{{ if .IsHome }}
+<div class="header-container tw-header tw-header-transparent uk-dark">
+{{ else }}
+<div class="header-container tw-header tw-header-transparent uk-light">
+{{ end }}
+    <nav class="uk-navbar-container uk-flex-center uk-navbar" data-uk-navbar>
         <div class="uk-navbar-center">
             <a class="uk-navbar-item uk-logo" href="/">
                 <img src="/images/logo/header-logo.png" alt="little robot" srcset="/images/logo/header-logo@2x.png 2x" />
