@@ -11,9 +11,11 @@ categories:
     - spreadsheets
 ---
 
-{{< spreadsheet-about "first" >}}
-
 Spreadsheets are a great way to start adding structure to previously completely manual processes and they allow information sharing between staff. After a while, though, the honeymoon period ends and they start to become a bit of a liability.
+
+<!--more-->
+
+{{< spreadsheet-about "first" >}}
 
 I have seen a number of problems that usually begin to take hold as the value of spreadsheets is seen and they are shared with multiple colleagues.
 

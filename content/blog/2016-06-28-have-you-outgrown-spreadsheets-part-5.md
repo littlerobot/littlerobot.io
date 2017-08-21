@@ -10,9 +10,11 @@ categories:
     - spreadsheets
 ---
 
-{{< spreadsheet-about "fifth" >}}
-
 Probably the most powerful feature of Excel when it comes to managing the data used to run your business is the ability for computer savvy users to put together business specific calculations and functionality using formulas. It's exceptionally valuable to be able to reduce manual effort, and duplication, as well as adding some structure. The downside of this is that the formula grow and grow as more features are added and you end up with a big blog of business process rules all over your spreadsheet.
+
+<!--more-->
+
+{{< spreadsheet-about "fifth" >}}
 
 Each change and addition is another chance for these rules to become inconsistent or for subtle errors to sneak in. They also create an opportunity for staff to accidentally break the fragile formula when using the spreadsheet for their daily work.
 

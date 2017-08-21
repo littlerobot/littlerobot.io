@@ -11,9 +11,11 @@ categories:
     - spreadsheets
 ---
 
-{{< spreadsheet-about "sixth" >}}
-
 For multi-stage, long running business processes, such as sales, order fulfilment, and project management, it is likely that additional (possibly non-structured) data will need to be recorded and multiple users may be responsible for completing different parts of the process.
+
+<!--more-->
+
+{{< spreadsheet-about "sixth" >}}
 
 It feels safe to say that spreadsheets really aren't a good fit for these complex processes. Certainly, comments can be added but they are second class citizens are far as the spreadsheet is concerned—a small triangle in the corner of the cell to highlight the additional context. Their visibility is poor, requiring users to hover over each cells to see what extra information is hiding behind the triangle. Of course, they can be displayed all at once, at the expense of seeing the cells themselves, but that trades one problem for another.
 

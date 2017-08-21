@@ -11,9 +11,11 @@ categories:
     - spreadsheets
 ---
 
-{{< spreadsheet-about "fourth" >}}
-
 Excel is certainly great at allowing people to quickly bring some structure to their data: Add some column headings, write some formulas to calculate things, and begin adding your data. It almost couldn't be simpler.
+
+<!--more-->
+
+{{< spreadsheet-about "fourth" >}}
 
 Then often begins a process of adding "just one more column" until you can't see everything you need in one place and you're left with a jumble of words and numbers that you have to manically scroll around, hoping you've got the correct rows and columns so that data all relates to the same record. Freezing the grid can sometimes help but most of the time you're stuck with a layout that worked fine when you only had a small amount of data but changing it now would require throwing away all the hard work that has gone into it so far. Pivot tables can help in narrow cases but they are really only good for summarising data&mdash;their intended use case.
 

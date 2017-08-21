@@ -10,11 +10,12 @@ categories:
     - business
     - spreadsheets
 ---
-
-{{< spreadsheet-about "third" >}}
-
 ## Do you know what happened to your business data over time?
 Depending on your industry, it may be a legal requirement for you to be able to audit data changes for compliance reasons. In any case, it is often useful to be able to see when a record was last updated to get an idea of how accurate it is likely to be; find out who updated it last so you can speak to them about the information you see; or even view the exact changes that happened in a particular update.
+
+<!--more-->
+
+{{< spreadsheet-about "third" >}}
 
 Maybe you have an Excel wizard who could create something using VBA or maybe a fancy formula that could provide something that would let you get by, but that will need to be added to every single spreadsheet you need to have auditing capability, and you have to be very careful that the functionality isn't accidentally broken when less technical users work with the spreadsheet.
 

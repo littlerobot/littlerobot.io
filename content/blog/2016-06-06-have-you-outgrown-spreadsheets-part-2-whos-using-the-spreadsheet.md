@@ -10,10 +10,12 @@ categories:
     - spreadsheets
 ---
 
-{{< spreadsheet-about "second" >}}
-
 ## Multi-user access
 More and more people will want access to a spreadsheet as it starts becoming valuable, which is great! It's possible to share the file on a network drive so that it can be used by multiple people at the same time, and this is probably fine where there aren't many people using the spreadsheet and you have the technical expertise to set the server permissions to meet your requirements.
+
+<!--more-->
+
+{{< spreadsheet-about "second" >}}
 
 It could, however, start to be a problem if you need to allow access to people who don't have access to the network drive&mdash;maybe they work remotely or they travel as part of their role. Perhaps the employee uses a tablet and doesn't have a copy of Excel. Even if all users are accessing it from their PCs on the network drive, as the number of users grows so too does the risk of data being overwritten, often inadvertently due to save-conflicts.
 
