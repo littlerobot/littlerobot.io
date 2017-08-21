@@ -2,15 +2,13 @@
 title: "Have you outgrown spreadsheets? Part 6: Supplementary information and ownership"
 date: 2016-07-05
 image:
-    name: 2016-06-21-waves.jpg
-    alt: Choppy sea
-    credit: North Pacific storm waves as seen from the NOAA M/V Noble Star, Winter 1989%
+    name: 2016-07-05-dog.jpg
+    alt: Cute dog in a red bucket
+    credit: Photo by <a href="https://unsplash.com/photos/NmgKrarRl0I?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andrew Branch</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 categories:
     - business
     - spreadsheets
-
-draft: true
 ---
 
 {{< spreadsheet-about "sixth" >}}

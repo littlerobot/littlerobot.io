@@ -1,16 +1,13 @@
 ---
-title: "Have you outgrown spreadsheets? Part 5:"
+title: "Have you outgrown spreadsheets? Part 5: Keeping things consistent"
 date: 2016-06-28
 image:
-    name: 2016-06-21-waves.jpg
-    alt: Choppy sea
-    credit: North Pacific storm waves as seen from the NOAA M/V Noble Star, Winter 1989%
+    name: 2016-06-28-paperclips.jpg
+    alt: Messy paperclips
 
 categories:
     - business
     - spreadsheets
-
-draft: true
 ---
 
 {{< spreadsheet-about "fifth" >}}
@@ -23,6 +20,6 @@ Locking the spreadsheet mitigates many of these problems—making the formulas t
 
 Custom systems certainly don't resolve all of these problems but they can definitely mitigate what I consider to be the most impactful ones:
 
-As discussed in [part 3](/blog/2016/06/have-you-outgrown-spreadsheets-part-2-whos-using-the-spreadsheet/), user access is determined by your business requirements and not the restrictions of the software you use. If you need certain staff to be able to manage a specific piece of business data, they can. In addition to having the ability to manage the data, data entry screens are developed in a way that makes sense to staff and makes tasks more efficient. This reduces training requirements and means that more technical users don't have to provide support for their colleagues.
+As discussed in [part 2](/blog/2016/06/have-you-outgrown-spreadsheets-part-2-whos-using-the-spreadsheet/), user access is determined by your business requirements and not the restrictions of the software you use. If you need certain staff to be able to manage a specific piece of business data, they can. In addition to having the ability to manage the data, data entry screens are developed in a way that makes sense to staff and makes tasks more efficient. This reduces training requirements and means that more technical users don't have to provide support for their colleagues.
 
 A small, but important, change is that staff trust the system to only allow them to perform actions that are valid and there isn't a way that they can accidentally break things that will affect their work and the work of others in the company.
