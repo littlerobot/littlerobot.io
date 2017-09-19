@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/stubez
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://littlerobot.io
+  * I am stubez (https://keybase.io/stubez) on keybase.
+  * I have a public key ASCB8KiUXNrMfCYe7imFgu5EI2oaS3Eda2DLuAt7Usnuewo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012039ed48b7b24d4ed04e8042afc010841d2b45c8d151ebecdae00fe378225179c00a",
+      "host": "keybase.io",
+      "kid": "012081f0a8945cdacc7c261eee298582ee44236a1a4b711d6b60cbb80b7b52c9ee7b0a",
+      "uid": "5b5b9b734ca52000ca5d8daa0362d619",
+      "username": "stubez"
+    },
+    "merkle_root": {
+      "ctime": 1505826193,
+      "hash": "a9f17d8059c2d251c4d18d3b51c92364ea37d457453eb25c43b02261d7661b23506b0bf1b92114f2535b4cb8c6271b06dce58cf413bdba6cb9cd8bbda7e5b1e0",
+      "hash_meta": "b8f071717c4e4fc92250130e0737248d20696f25912a057ead1f95b6fe0f1a72",
+      "seqno": 1413171
+    },
+    "service": {
+      "hostname": "littlerobot.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.30"
+  },
+  "ctime": 1505826199,
+  "expire_in": 504576000,
+  "prev": "19e66ee553b004bc24ee197b4b4e3786a5ed1c4daf196e57c54f29a5b11a64e1",
+  "seqno": 15,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEggfColFzazHwmHu4phYLuRCNqGktxHWtgy7gLe1LJ7nsKp3BheWxvYWTFA0V7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMzllZDQ4YjdiMjRkNGVkMDRlODA0MmFmYzAxMDg0MWQyYjQ1YzhkMTUxZWJlY2RhZTAwZmUzNzgyMjUxNzljMDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwODFmMGE4OTQ1Y2RhY2M3YzI2MWVlZTI5ODU4MmVlNDQyMzZhMWE0YjcxMWQ2YjYwY2JiODBiN2I1MmM5ZWU3YjBhIiwidWlkIjoiNWI1YjliNzM0Y2E1MjAwMGNhNWQ4ZGFhMDM2MmQ2MTkiLCJ1c2VybmFtZSI6InN0dWJleiJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUwNTgyNjE5MywiaGFzaCI6ImE5ZjE3ZDgwNTljMmQyNTFjNGQxOGQzYjUxYzkyMzY0ZWEzN2Q0NTc0NTNlYjI1YzQzYjAyMjYxZDc2NjFiMjM1MDZiMGJmMWI5MjExNGYyNTM1YjRjYjhjNjI3MWIwNmRjZTU4Y2Y0MTNiZGJhNmNiOWNkOGJiZGE3ZTViMWUwIiwiaGFzaF9tZXRhIjoiYjhmMDcxNzE3YzRlNGZjOTIyNTAxMzBlMDczNzI0OGQyMDY5NmYyNTkxMmEwNTdlYWQxZjk1YjZmZTBmMWE3MiIsInNlcW5vIjoxNDEzMTcxfSwic2VydmljZSI6eyJob3N0bmFtZSI6ImxpdHRsZXJvYm90LmlvIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzAifSwiY3RpbWUiOjE1MDU4MjYxOTksImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiMTllNjZlZTU1M2IwMDRiYzI0ZWUxOTdiNGI0ZTM3ODZhNWVkMWM0ZGFmMTk2ZTU3YzU0ZjI5YTViMTFhNjRlMSIsInNlcW5vIjoxNSwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEDmvaeEOC6jlKLNZilf0SDunOLt1aCYlQGnqkB4vW3fJFtcjlKX47qn+QRhpwylrSjzY4rTZLg0W4RhzZXagjMJqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQg2TugH2jhwIxTp1GANC1LU+T4HWUYwZa7tRQe2Bj1/S6jdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/stubez
+
+==================================================================
