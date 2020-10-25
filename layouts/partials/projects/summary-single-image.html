@@ -1,8 +1,0 @@
-{{ $directory := add (add "static/images/projects/" .projectId) "/" }}
-{{ $isJpeg := (where (readDir $directory) "Name" "summary.jpg") | len}}
-
-<div>
-    <div class="promo-image-container">
-        <img class="promo-image uk-box-shadow-small" src="/images/projects/{{ .projectId }}/{{ if eq $isJpeg 1 }}summary.jpg{{ else }}summary.png{{ end }}">
-    </div>
-</div>
